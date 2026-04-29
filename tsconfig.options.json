@@ -1,3 +1,7 @@
 {
-  "extends": "tsconfig-moon/tsconfig.projects.json"
+  "extends": "tsconfig-moon/tsconfig.projects.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
 }
